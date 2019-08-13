@@ -1,0 +1,779 @@
+*{
+	padding: 0;
+	margin: 0;	
+}
+
+/*СТИЛІ ДО H O M E*/
+
+.home{
+		width: 100%;
+		height: 700px;
+		background-image: url("../img/background-img.png");
+		background-size: 100% 700px;
+		text-align: center;
+}
+
+header{
+	width: 100%;
+	height: 270px;
+}
+
+#logo-treehouse{
+	margin-top: 2.5%;
+	margin-left: 15%;
+	float: left;
+}
+
+#home{
+	margin-top: 3%;
+	margin-left: 30%;
+	float: left;
+	font-size: 1.0em;
+	font-family: arial;
+	font-weight: bold;
+	color: white;
+	border-color: transparent;
+	background: transparent;
+}
+
+#home:hover{
+	background-color: #ff4b5a;
+	border-color: #ff4b5a;
+}
+
+#home:active{
+	background-color: #00FF00;
+	border-color: #00FF00;
+}
+
+#services{
+	margin-top: 3%;
+	margin-left: 3%;
+	float: left;
+	font-size: 1.0em;
+	font-family: arial;
+	font-weight: bold;
+	color: white;
+	border-color: transparent;
+	background: transparent;
+}
+
+#services:hover{
+	background-color: #ff4b5a;
+	border-color: #ff4b5a;
+}
+
+#services:active{
+	background-color: #00FF00;
+	border-color: #00FF00;
+}
+
+#portfolio{
+	margin-top: 3%;
+	margin-left: 3%;
+	float: left;
+	font-size: 1.0em;
+	font-family: arial;
+	font-weight: bold;
+	color: white;
+	border-color: transparent;
+	background: transparent;
+}
+
+#portfolio:hover{
+	background-color: #ff4b5a;
+	border-color: #ff4b5a;
+}
+
+#portfolio:active{
+	background-color: #00FF00;
+	border-color: #00FF00;
+}
+
+#about{
+	margin-top: 3%;
+	margin-left: 3%;
+	float: left;
+	font-size: 1.0em;
+	font-family: arial;
+	font-weight: bold;
+	color: white;
+	border-color: transparent;
+	background: transparent;
+}
+
+#about:hover{
+	background-color: #ff4b5a;
+	border-color: #ff4b5a;
+}
+
+#about:active{
+	background-color: #00FF00;
+	border-color: #00FF00;
+}
+
+#contact{
+	margin-top: 3%;
+	margin-left: 3%;
+	float: left;
+	font-size: 1.0em;
+	font-family: arial;
+	font-weight: bold;
+	color: white;
+	border-color: transparent;
+	background: transparent;
+}
+
+#contact:hover{
+	background-color: #ff4b5a;
+	border-color: #ff4b5a;
+}
+
+#contact:active{
+	background-color: #00FF00;
+	border-color: #00FF00;
+}
+
+#welcometoourstudio{
+	font-size: 2.5em;
+	font-style: italic;
+	color: white;
+}
+
+#itsnice{
+	margin-top: 2%;
+	font-size: 5.0em;
+	font-family: arial;
+	font-weight: bold;
+	color: white;
+}
+
+#tellmemore{
+	width: 18%;
+	height: 10%;
+	margin-top: 2%;
+	background-color: #fed136;
+	font-size: 1.2em;
+	font-weight: bold;
+	font-family: arial;
+	border-color: #fed136;
+	color: white;
+	border-radius: 3px;
+}
+
+#tellmemore:active{
+	background-color: #00FF00;
+	border-color: #00FF00;
+}
+
+/*СТИЛІ ДО H O M E*/
+
+/*СТИЛІ ДО S E R V I C E S*/
+
+.services{
+	width: 100%;
+	height: 570px;
+	background-color: #ffffff;
+}	
+
+#servicesp1{
+	text-align: center;
+	margin-top: 10%;
+	font-size: 3.0em;
+	font-family: arial;
+	font-weight: bold;
+	color: black;
+}
+
+#servicesp2{
+	margin-top: 1%;
+	text-align: center;
+	font-size: 1.2em;
+	font-family: arial;
+	color: #a2a2a2;
+}
+
+.e-commerce{
+	float: left;
+	width: 22%;
+	height: 350px;
+	margin-left: 17%;
+	text-align: center;
+	margin-top: 7%;
+}
+
+.responsiveweb{
+	float: left;
+	width: 22%;
+	height: 350px;
+	text-align: center;
+	margin-top: 7%;
+}
+
+.websecurity{
+	float: left;
+	width: 22%;
+	height: 350px;
+	text-align: center;
+	margin-top: 7%;
+}
+
+.servicesp{
+	font-size: 1.4em;
+	font-family: arial;
+	margin-top: 7%;
+}
+
+.servicesp2{
+	margin-top: 5%;
+	color: #a2a2a2;
+	font-size: 1.1em;
+}
+
+
+/*СТИЛІ ДО S E R V I C E S*/
+
+/*СТИЛІ ДО P O R T F O L I O*/
+
+.portfolio{
+	width: 100%;
+	height: 1220px;
+	background-color: #f7f7f7;
+	display: inline-block;
+}
+
+.headofpage{
+	font-size: 2.8em;
+	font-weight: bold;
+	font-family: arial;
+	text-align: center;
+	margin-top: 8%;
+}
+
+.subtitleofpage{
+	text-align: center;
+	font-size: 1.2em;
+	font-family: arial;
+	font-style: italic;
+	color: #9f9f9f;
+	margin-top: 1%;
+}
+
+.ebonyandivory{
+	width: 20%;
+	height: 395px;
+	display: inline-block;
+	float: left;
+	margin-left: 16%;
+	margin-top: 5%;
+	background-color: #ffffff;
+}
+
+.smartstationary{
+	width: 20%;
+	height: 395px;
+	display: inline-block;
+	float: left;
+	margin-left: 2.5%;
+	margin-top: 5%;
+	background-color: #ffffff;
+}
+
+.cleverposter{
+	width: 20%;
+	height: 395px;
+	display: inline-block;
+	float: left;
+	margin-left: 2.5%;
+	margin-top: 5%;
+	background-color: #ffffff;
+}
+
+.vinylrecord{
+	width: 20%;
+	height: 395px;
+	display: inline-block;
+	float: left;
+	margin-left: 16%;
+	margin-top: 3%;
+	background-color: #ffffff;
+}
+
+.treehousetemplate{
+	width: 20%;
+	height: 395px;
+	display: inline-block;
+	float: left;
+	margin-left: 2.5%;
+	margin-top: 3%;
+	background-color: #ffffff;
+}
+
+.burnedlogo{
+	width: 20%;
+	height: 395px;
+	display: inline-block;
+	float: left;
+	margin-left: 2.5%;
+	margin-top: 3%;
+	background-color: #ffffff;
+}
+
+.portfoliophoto{
+	width: 100%;
+	height: 300px;
+}
+
+.portfoliophotoP1{
+	font-size: 1.4em;
+	text-align: center;
+	margin-top: 7%;
+	font-family: arial;
+}
+
+.portfoliophotoP2{
+	font-size: 1.0em;
+	text-align: center;
+	margin-top: 2%;
+	font-family: arial;
+	color: #959595;
+}
+
+/*СТИЛІ ДО P O R T F O L I O*/
+
+/*СТИЛІ ДО A B O U T   U S*/
+
+.aboutus{
+	width: 100%;
+	height: 1665px;
+
+}
+
+#emptydiv1{
+	width: 21.5%;
+	height: 1665px;
+	float: left;
+	display: inline-block;
+}
+
+.aboutusdiv1{
+	width: 21.5%;
+	height: 1665px;
+	float: left;
+	display: inline-block;
+}
+
+.aboutusdiv2{
+	width: 14%;
+	height: 1665px;
+	float: left;
+	display: inline-block;
+	text-align: center;
+}
+
+.aboutusdiv3{
+	width: 21.5%;
+	height: 1665px;
+	float: left;
+	display: inline-block;
+}
+
+#emptydiv2{
+	width: 21.5%;
+	height: 1665px;
+	float: left;
+	display: inline-block;
+}
+
+.headaboutusP1{
+	font-size: 1.4em;
+	font-family: Arial;
+	text-align: right;
+	color: #222222;
+	margin-top: 45%;
+	font-weight: bold;
+}
+
+.headaboutusP12{
+	font-size: 1.4em;
+	font-family: Arial;
+	text-align: right;
+	color: #222222;
+	margin-top: 150%;
+	font-weight: bold;
+}
+
+.subtitleaboutusP1{
+	font-size: 1.4em;
+	font-family: Arial;
+	text-align: right;
+	color: #222222;
+	font-weight: bold;
+}
+
+.textaboutusP1{
+	font-family: Arial;
+	text-align: right;
+	color: #777777;
+}
+
+.headaboutusP2{
+	font-size: 1.4em;
+	font-family: Arial;
+	text-align: left;
+	color: #222222;
+	margin-top: 137%;
+	font-weight: bold;
+}
+
+.headaboutusP22{
+	font-size: 1.4em;
+	font-family: Arial;
+	text-align: left;
+	color: #222222;
+	margin-top: 145%;
+	font-weight: bold;
+}
+
+.subtitleaboutusP2{
+	font-size: 1.4em;
+	font-family: Arial;
+	text-align: left;
+	color: #222222;
+	font-weight: bold;
+}
+
+.textaboutusP2{
+	font-family: Arial;
+	text-align: left;
+	color: #777777;
+}
+
+.container{
+	margin-top: 60%;
+}
+
+.container5{
+	margin-top: 60%;
+	position: relative;
+}
+
+.aboutusP1{
+	position: absolute;
+	margin-top: -9%;
+	margin-left: 5.8%;
+	font-family: arial;
+	font-weight: bold;
+	color: white;
+}
+
+.aboutusP2{
+	position: absolute;
+	margin-top: -7%;
+	margin-left: 5.4%;
+	font-family: arial;
+	font-weight: bold;
+	color: white;
+}
+
+.aboutusP3{
+	position: absolute;
+	margin-top: -5%;
+	margin-left: 4.3%;
+	font-family: arial;
+	font-weight: bold;
+	color: white;
+}
+
+.aboutusP4{
+	position: absolute;
+	margin-top: -3%;
+	margin-left: 6.7%;
+	font-family: arial;
+	font-weight: bold;
+	color: white;
+}
+
+/*СТИЛІ ДО A B O U T   U S*/
+
+/*СТИЛІ ДО O U R   A M A Z I N G   T E A M*/
+
+.ouramazingteam{
+	width: 100%; 
+	height: 820px;
+	background-color: #f9f9f9;
+	display: inline-block;
+	text-align: center;
+}
+
+.kimberlythompson{
+	width: 16.5%;
+	height: 395px;
+	float: left;
+	margin-left: 21.5%;
+}
+
+.ricomassirno{
+	width: 16.5%;
+	height: 395px;
+	float: left;
+	margin-left: 3%;
+}
+
+.ukumason{
+	width: 16.5%;
+	height: 395px;
+	float: left;
+	margin-left: 3%;
+}
+
+.ouramazingteamphotos{
+	width: 100%;
+	height: 230px;
+}
+
+.nameteam{
+	text-align: center;
+	font-weight: bold;
+	font-family: arial;
+	margin-top: 5%;
+	font-size: 1.2em;
+}
+
+.workname{
+	text-align: center;
+	color: #c5c5c5;
+	font-family: arial;
+	margin-top: 3%;
+}
+
+.twitterhover{
+	width: 40px;
+	height: 40px;
+	border-radius: 20px;
+	border: 3px solid black;
+	margin-top: 3%;
+}
+
+.facebookhover{
+	width: 40px;
+	height: 40px;
+	border-radius: 20px;
+	border: 3px solid black;
+	margin-top: 3%;
+}
+
+.pinteresthover{
+	width: 40px;
+	height: 40px;
+	border-radius: 20px;
+	border: 3px solid black;
+	margin-top: 3%;
+}
+
+.twitterhover:hover{
+	background-color: #00aced;
+	border-color: #00aced; 
+}
+
+.facebookhover:hover{
+	background-color: #3b5998;
+	border-color: #3b5998;
+}
+
+.pinteresthover:hover{
+	background-color: #cb2028;
+	border-color: #cb2028;
+}
+
+#ouramazingteamP{
+	text-align: center;
+	color: #c5c5c5;
+	font-family: arial;
+	display: inline-block;
+	margin-left: 30%;
+	margin-right: 30%;
+	font-size: 1.1em;
+}
+
+/*СТИЛІ ДО O U R   A M A Z I N G   T E A M*/
+
+/*СТИЛІ ДО O U R   L O G O S*/
+
+.logos{
+	width: 100%;
+	height: 165px;
+	display: inline-block;
+	text-align: center;
+}
+
+.logosimg{
+	margin-right: 1%;
+	margin-top: 4%;
+}
+
+/*СТИЛІ ДО O U R   L O G O S*/
+
+/*СТИЛІ ДО C O N T A C T   U S*/
+
+.contactus{
+	width: 100%;
+	height: 665px;
+	background-color: #222222;
+	background-image: url("../img/map-img.png");
+	background-size: 50% 665px;
+	display: inline-block;
+	overflow: hidden;
+}
+
+#headofpagecontactus{
+	font-size: 2.8em;
+	font-weight: bold;
+	font-family: arial;
+	text-align: center;
+	margin-top: 8%;
+	color: white;
+}
+
+#subtitleofpagecontactus{
+	text-align: center;
+	font-size: 1.2em;
+	font-family: arial;
+	font-style: italic;
+	color: #9f9f9f;
+	margin-top: 1%;
+	padding-bottom: 4%;
+}
+
+.contactusinput1{
+	width: 50%;
+	height: 250px;
+	float: left;
+}
+
+.contactusinput2{
+	width: 50%;
+	height: 250px;
+	float: left;
+}
+
+.field1{
+	width: 60%;
+	height: 45px;
+	float: right;
+	margin-right: 5%;
+	margin-top: 3%;
+	overflow: hidden;
+	font-family: arial;
+	font-weight: bold;
+	padding-left: 2%;
+}
+
+.field2{
+	width: 60%;
+	height: 160px;
+	float: left;
+	margin-left: 5%;
+	margin-top: 3%;
+	overflow: hidden;
+	font-family: arial;
+	font-weight: bold;
+	text-align: left;
+	padding: 2%;
+}
+
+#sendmessage{
+	width: 20%;
+	height: 60px;
+	margin-top: 2%;
+	text-align: center;
+	margin-left: 40%;
+	background-color: #fed136;
+	font-size: 1.2em;
+	font-weight: bold;
+	font-family: arial;
+	border-color: #fed136;
+	color: white;
+	border-radius: 3px;
+}
+
+#sendmessage:active{
+	background-color: #00FF00;
+	border-color: #00FF00;
+}
+
+/*СТИЛІ ДО C O N T A C T   U S*/
+
+/*СТИЛІ ДО B O T T O M   F O O T E R*/
+
+.bottomfooter{
+	width: 100%;
+	height: 90px;
+}
+
+#footersentence{
+	float: left;
+	margin-left: 15%;
+	margin-top: 2%;
+	margin-right: 11.5%;
+}
+
+.twitterhover2{
+	width: 40px;
+	height: 40px;
+	border-radius: 20px;
+	margin-top: 1%;
+	background-color: #222222;
+	border: none;
+	margin-right: 1%;
+}
+
+.facebookhover2{
+	width: 40px;
+	height: 40px;
+	border-radius: 20px;
+	margin-top: 1%;
+	background-color: #222222;
+	border: none;
+	margin-right: 1%;
+}
+
+.pinteresthover2{
+	width: 40px;
+	height: 40px;
+	border-radius: 20px;
+	margin-top: 1%;
+	background-color: #222222;
+	border: none;
+	margin-right: 1%;
+}
+
+.googlehover2{
+	width: 40px;
+	height: 40px;
+	border-radius: 20px;
+	margin-top: 1%;
+	background-color: #222222;
+	border: none;
+	margin-right: 1%;
+}
+
+.twitterhover2:hover{
+	background-color: #00aced;
+	border-color: #00aced; 
+}
+
+.facebookhover2:hover{
+	background-color: #3b5998;
+	border-color: #3b5998;
+}
+
+.pinteresthover2:hover{
+	background-color: #cb2028;
+	border-color: #cb2028;
+}
+
+.googlehover2:hover{
+	background-color: #da2713;
+	border-color: #da2713;
+}
